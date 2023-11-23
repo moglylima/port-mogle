@@ -41,3 +41,18 @@
         }
     }
 }
+
+@media (min-width: 768px){
+    .container {
+        padding: 70px 60px;
+        height: 100vh;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: 60% 30%;
+        align-items: center;
+        justify-items: start;
+        justify-content: space-between;
+        grid-template-areas: 
+        "header info"
+        "experience btns";
+    }
+}
