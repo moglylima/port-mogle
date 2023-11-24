@@ -1,0 +1,14 @@
+footer {
+    background: rgb(32, 32, 32);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-text {
+    color: var(--text-primary);
+    font-size: 12px;
+}
