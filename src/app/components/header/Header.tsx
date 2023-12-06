@@ -8,8 +8,7 @@ export function Header() {
             <h1>Hi, I´m Mogleson! 👋</h1>
             <h2>Web Developer</h2>
             <p>
-            Fico feliz em vê-lo (a) por aqui. Espero que aproveite o conteúdo e que eu possa te ajudar de alguma forma.
-            </p>
+            I'm happy to see you here. I hope you enjoy the content and that I can help you in some way.            </p>
           </div>
           <Image
             src="/me2.png"

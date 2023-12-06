@@ -7,25 +7,21 @@ import { SocialButtons } from './components/social-buttons/SocialButtons'
 import "./styles/home.scss"
 
 export default function Home() {
-  return (<>
+  return (
     <main className="container">
+
       <Header />
       <Experience />
       <Information />
-
       <div className="buttons">
         <SocialButtons />
         <a className="btn-primary" href="mailto:moglesonlima@gmail.com">
           Contact me
           <EmailIcon />
         </a>
-
       </div>
-      
-    </main>
-    <Footer /> 
-  
-  </>
-    
+
+      <Footer />      
+    </main>    
   )
 }
